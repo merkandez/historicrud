@@ -1,0 +1,40 @@
+{
+  "historical_events": [
+    {
+      "id": "6",
+      "title": "Revolución Mexicana",
+      "date": "1910",
+      "location": "México",
+      "description": "La Revolución Mexicana comenzó el 20 de noviembre de 1910 como una lucha armada contra el régimen dictatorial de Porfirio Díaz, marcando un cambio significativo en la política y sociedad mexicana.",
+      "key_figures": [
+        "Francisco I. Madero",
+        "Emiliano Zapata",
+        "Pancho Villa"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Caída del Muro de Berlín",
+      "date": "1989",
+      "location": "Berlín, Alemania",
+      "description": "El 9 de noviembre de 1989, el Muro de Berlín, que había dividido la ciudad en dos durante décadas, fue derribado, marcando el inicio del fin de la Guerra Fría y la reunificación alemana.",
+      "key_figures": [
+        "Mijaíl Gorbachov",
+        "Ronald Reagan",
+        "Helmut Kohl"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Independencia de la India",
+      "date": "1947",
+      "location": "Nueva Delhi, India",
+      "description": "El 15 de agosto de 1947, la India obtuvo su independencia del dominio británico después de una larga lucha liderada por figuras clave del movimiento independentista indio.",
+      "key_figures": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Lord Mountbatten"
+      ]
+    }
+  ]
+}

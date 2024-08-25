@@ -1,0 +1,72 @@
+{
+  "historical_events": [
+    {
+      "id": 1,
+      "title": "Caída del Imperio Romano de Occidente",
+      "date": "476",
+      "location": "Roma, Italia",
+      "description": "El Imperio Romano de Occidente colapsó oficialmente el 4 de septiembre de 476, cuando el último emperador romano, Rómulo Augústulo, fue depuesto por el líder germánico Odoacro.",
+      "key_figures": ["Rómulo Augústulo", "Odoacro"]
+    },
+    {
+      "id": 2,
+      "title": "Descubrimiento de América",
+      "date": "1492",
+      "location": "Bahamas",
+      "description": "El 12 de octubre de 1492, Cristóbal Colón, al servicio de los Reyes Católicos de España, llegó a lo que hoy conocemos como América, marcando el inicio de una nueva era en la historia mundial.",
+      "key_figures": ["Cristóbal Colón", "Reyes Católicos"]
+    },
+    {
+      "id": 3,
+      "title": "Revolución Francesa",
+      "date": "1789",
+      "location": "París, Francia",
+      "description": "La Revolución Francesa comenzó el 14 de julio de 1789 con la toma de la Bastilla, un evento que marcó el inicio del fin de la monarquía absoluta en Francia y el ascenso de los valores republicanos.",
+      "key_figures": ["Luis XVI", "Maximilien Robespierre"]
+    },
+    {
+      "id": 4,
+      "title": "Independencia de Estados Unidos",
+      "date": "1776",
+      "location": "Filadelfia, Estados Unidos",
+      "description": "El 4 de julio de 1776, las Trece Colonias en América del Norte proclamaron su independencia del Reino de Gran Bretaña, estableciendo las bases para la creación de los Estados Unidos de América.",
+      "key_figures": ["George Washington", "Thomas Jefferson", "John Adams"]
+    },
+    {
+      "id": 5,
+      "title": "Inicio de la Segunda Guerra Mundial",
+      "date": "1939",
+      "location": "Europa",
+      "description": "La Segunda Guerra Mundial comenzó el 1 de septiembre de 1939, cuando Alemania invadió Polonia, lo que llevó a Gran Bretaña y Francia a declarar la guerra a Alemania dos días después.",
+      "key_figures": [
+        "Adolf Hitler",
+        "Winston Churchill",
+        "Franklin D. Roosevelt"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Revolución Mexicana",
+      "date": "1910",
+      "location": "México",
+      "description": "La Revolución Mexicana comenzó el 20 de noviembre de 1910 como una lucha armada contra el régimen dictatorial de Porfirio Díaz, marcando un cambio significativo en la política y sociedad mexicana.",
+      "key_figures": ["Francisco I. Madero", "Emiliano Zapata", "Pancho Villa"]
+    },
+    {
+      "id": 7,
+      "title": "Caída del Muro de Berlín",
+      "date": "1989",
+      "location": "Berlín, Alemania",
+      "description": "El 9 de noviembre de 1989, el Muro de Berlín, que había dividido la ciudad en dos durante décadas, fue derribado, marcando el inicio del fin de la Guerra Fría y la reunificación alemana.",
+      "key_figures": ["Mijaíl Gorbachov", "Ronald Reagan", "Helmut Kohl"]
+    },
+    {
+      "id": 8,
+      "title": "Independencia de la India",
+      "date": "1947",
+      "location": "Nueva Delhi, India",
+      "description": "El 15 de agosto de 1947, la India obtuvo su independencia del dominio británico después de una larga lucha liderada por figuras clave del movimiento independentista indio.",
+      "key_figures": ["Mahatma Gandhi", "Jawaharlal Nehru", "Lord Mountbatten"]
+    }
+  ]
+}
