@@ -67,6 +67,70 @@
       "location": "Nueva Delhi, India",
       "description": "El 15 de agosto de 1947, la India obtuvo su independencia del dominio británico después de una larga lucha liderada por figuras clave del movimiento independentista indio.",
       "key_figures": ["Mahatma Gandhi", "Jawaharlal Nehru", "Lord Mountbatten"]
+    },
+    {
+      "id": 9,
+      "title": "Revolución Industrial",
+      "date": "1760-1840",
+      "location": "Inglaterra",
+      "description": "La Revolución Industrial fue un período de grandes avances tecnológicos y económicos, comenzando en Inglaterra a mediados del siglo XVIII y expandiéndose por todo el mundo, transformando las sociedades agrícolas en industriales.",
+      "key_figures": ["James Watt", "Richard Arkwright", "George Stephenson"]
+    },
+    {
+      "id": 10,
+      "title": "Guerra de Independencia de América Latina",
+      "date": "1810-1825",
+      "location": "América Latina",
+      "description": "Una serie de movimientos revolucionarios en América Latina, liderados por figuras clave, resultaron en la independencia de las colonias españolas en el continente.",
+      "key_figures": ["Simón Bolívar", "José de San Martín", "Miguel Hidalgo"]
+    },
+    {
+      "id": 11,
+      "title": "Primera Guerra Mundial",
+      "date": "1914-1918",
+      "location": "Europa",
+      "description": "La Primera Guerra Mundial fue un conflicto global centrado en Europa, que comenzó el 28 de julio de 1914 y terminó el 11 de noviembre de 1918, dejando un impacto duradero en la geopolítica mundial.",
+      "key_figures": ["Woodrow Wilson", "Kaiser Guillermo II", "Francisco Fernando"]
+    },
+    {
+      "id": 12,
+      "title": "Proclamación de la República en Brasil",
+      "date": "1889",
+      "location": "Río de Janeiro, Brasil",
+      "description": "El 15 de noviembre de 1889, Brasil pasó de ser un imperio a una república federal, tras un golpe militar que depuso al emperador Pedro II.",
+      "key_figures": ["Pedro II", "Marechal Deodoro da Fonseca"]
+    },
+    {
+      "id": 13,
+      "title": "La Gran Depresión",
+      "date": "1929",
+      "location": "Estados Unidos",
+      "description": "La Gran Depresión fue una severa crisis económica que comenzó en 1929 con la caída de la Bolsa de Nueva York, afectando a nivel mundial y llevando a cambios significativos en la economía y política global.",
+      "key_figures": ["Herbert Hoover", "Franklin D. Roosevelt"]
+    },
+    {
+      "id": 14,
+      "title": "Revolución de Octubre",
+      "date": "1917",
+      "location": "Petrogrado, Rusia",
+      "description": "La Revolución de Octubre de 1917 fue un levantamiento liderado por los bolcheviques, que resultó en la toma del poder en Rusia y el establecimiento de la Unión Soviética.",
+      "key_figures": ["Vladimir Lenin", "León Trotsky", "Nikolái Bujarin"]
+    },
+    {
+      "id": 15,
+      "title": "Conquista de Constantinopla",
+      "date": "1453",
+      "location": "Constantinopla, Imperio Bizantino",
+      "description": "El 29 de mayo de 1453, Constantinopla fue conquistada por el Imperio Otomano, marcando el fin del Imperio Bizantino y un cambio significativo en la historia mundial.",
+      "key_figures": ["Mehmed II", "Constantino XI"]
+    },
+    {
+      "id": 16,
+      "title": "Declaración Universal de los Derechos Humanos",
+      "date": "1948",
+      "location": "París, Francia",
+      "description": "El 10 de diciembre de 1948, la Asamblea General de las Naciones Unidas adoptó la Declaración Universal de los Derechos Humanos, estableciendo los derechos fundamentales para todos los seres humanos.",
+      "key_figures": ["Eleanor Roosevelt", "René Cassin"]
     }
   ]
 }

@@ -1,6 +1,63 @@
 {
   "historical_events": [
     {
+      "id": "1",
+      "title": "Caída del Imperio Romano de Occidente",
+      "date": "476",
+      "location": "Roma, Italia",
+      "description": "El Imperio Romano de Occidente colapsó oficialmente el 4 de septiembre de 476, cuando el último emperador romano, Rómulo Augústulo, fue depuesto por el líder germánico Odoacro.",
+      "key_figures": [
+        "Rómulo Augústulo",
+        "Odoacro"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Descubrimiento de América",
+      "date": "1492",
+      "location": "Bahamas",
+      "description": "El 12 de octubre de 1492, Cristóbal Colón, al servicio de los Reyes Católicos de España, llegó a lo que hoy conocemos como América, marcando el inicio de una nueva era en la historia mundial.",
+      "key_figures": [
+        "Cristóbal Colón",
+        "Reyes Católicos"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Revolución Francesa",
+      "date": "1789",
+      "location": "París, Francia",
+      "description": "La Revolución Francesa comenzó el 14 de julio de 1789 con la toma de la Bastilla, un evento que marcó el inicio del fin de la monarquía absoluta en Francia y el ascenso de los valores republicanos.",
+      "key_figures": [
+        "Luis XVI",
+        "Maximilien Robespierre"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Independencia de Estados Unidos",
+      "date": "1776",
+      "location": "Filadelfia, Estados Unidos",
+      "description": "El 4 de julio de 1776, las Trece Colonias en América del Norte proclamaron su independencia del Reino de Gran Bretaña, estableciendo las bases para la creación de los Estados Unidos de América.",
+      "key_figures": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Inicio de la Segunda Guerra Mundial",
+      "date": "1939",
+      "location": "Europa",
+      "description": "La Segunda Guerra Mundial comenzó el 1 de septiembre de 1939, cuando Alemania invadió Polonia, lo que llevó a Gran Bretaña y Francia a declarar la guerra a Alemania dos días después.",
+      "key_figures": [
+        "Adolf Hitler",
+        "Winston Churchill",
+        "Franklin D. Roosevelt"
+      ]
+    },
+    {
       "id": "6",
       "title": "Revolución Mexicana",
       "date": "1910",
@@ -34,6 +91,87 @@
         "Mahatma Gandhi",
         "Jawaharlal Nehru",
         "Lord Mountbatten"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Revolución Industrial",
+      "date": "1760-1840",
+      "location": "Inglaterra",
+      "description": "La Revolución Industrial fue un período de grandes avances tecnológicos y económicos, comenzando en Inglaterra a mediados del siglo XVIII y expandiéndose por todo el mundo, transformando las sociedades agrícolas en industriales.",
+      "key_figures": [
+        "James Watt",
+        "Richard Arkwright",
+        "George Stephenson"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Guerra de Independencia de América Latina",
+      "date": "1810-1825",
+      "location": "América Latina",
+      "description": "Una serie de movimientos revolucionarios en América Latina, liderados por figuras clave, resultaron en la independencia de las colonias españolas en el continente.",
+      "key_figures": [
+        "Simón Bolívar",
+        "José de San Martín",
+        "Miguel Hidalgo"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Primera Guerra Mundial",
+      "date": "1914-1918",
+      "location": "Europa",
+      "description": "La Primera Guerra Mundial fue un conflicto global centrado en Europa, que comenzó el 28 de julio de 1914 y terminó el 11 de noviembre de 1918, dejando un impacto duradero en la geopolítica mundial.",
+      "key_figures": [
+        "Woodrow Wilson",
+        "Kaiser Guillermo II",
+        "Francisco Fernando"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Proclamación de la República en Brasil",
+      "date": "1889",
+      "location": "Río de Janeiro, Brasil",
+      "description": "El 15 de noviembre de 1889, Brasil pasó de ser un imperio a una república federal, tras un golpe militar que depuso al emperador Pedro II.",
+      "key_figures": [
+        "Pedro II",
+        "Marechal Deodoro da Fonseca"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "La Gran Depresión",
+      "date": "1929",
+      "location": "Estados Unidos",
+      "description": "La Gran Depresión fue una severa crisis económica que comenzó en 1929 con la caída de la Bolsa de Nueva York, afectando a nivel mundial y llevando a cambios significativos en la economía y política global.",
+      "key_figures": [
+        "Herbert Hoover",
+        "Franklin D. Roosevelt"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Revolución de Octubre",
+      "date": "1917",
+      "location": "Petrogrado, Rusia",
+      "description": "La Revolución de Octubre de 1917 fue un levantamiento liderado por los bolcheviques, que resultó en la toma del poder en Rusia y el establecimiento de la Unión Soviética.",
+      "key_figures": [
+        "Vladimir Lenin",
+        "León Trotsky",
+        "Nikolái Bujarin"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Conquista de Constantinopla",
+      "date": "1453",
+      "location": "Constantinopla, Imperio Bizantino",
+      "description": "El 29 de mayo de 1453, Constantinopla fue conquistada por el Imperio Otomano, marcando el fin del Imperio Bizantino y un cambio significativo en la historia mundial.",
+      "key_figures": [
+        "Mehmed II",
+        "Constantino XI"
       ]
     }
   ]

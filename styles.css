@@ -2,14 +2,50 @@ h1 {
   text-align: center;
 }
 .card {
+  
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
   max-width: 400px;
+  height: auto;
   background-color: rgba(196, 192, 184, 0.534);
+  perspective: 1000px;
 }
+.card-full {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s ease-in-out;
+  transform-style: preserve-3d;
+}
+.card.flipped .card-full {
+  transform: rotateY(180deg); /* Giramos la tarjeta al hacer clic */
+}
+
+/* .card-front, */
+.card-back {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%; /* Ambas caras deben ocupar todo el espacio */
+  backface-visibility: hidden;
+  padding: 16px;
+  box-sizing: border-box; /* Asegura que el padding se incluye en el tamaño total */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Misma sombra para ambas caras */
+  transform: rotateY(180deg);
+  z-index: 1; /* Inicialmente está por debajo */
+  background-color: rgba(196, 192, 184, 0.99);
+}
+.card-front {
+  z-index: 0; /* Colocamos el frente sobre el reverso inicialmente */
+}
+
+
 
 .card-title {
   font-size: 1.5em;
@@ -49,9 +85,19 @@ h1 {
   background-color: #3498db;
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 .card button.more:hover {
   scale: 1.04;
+}
+.card button.edit {
+  background-color: #f1c40f;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.card button.edit:hover {
+  transform: scale(1.04);
 }
 
 #result {
@@ -59,6 +105,64 @@ h1 {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 16px;
+}
+/* Estilo para el formulario */
+#divForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px auto;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2),
+    /* sombra interior más suave */ 0 1px 10px rgba(0.3, 0.3, 0.3, 0.2); /* sombra exterior más suave */
+}
+form {
+  width: 100%;
+}
+
+#eventForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#eventForm input,
+#eventForm textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#eventForm button,
+#CreateNewEventBtn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+  margin-top: 8px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+#CreateNewEventBtn {
+  width: 50%;
+}
+
+#eventForm button:hover,
+#CreateNewEventBtn:hover {
+  background-color: #2980b9;
+  scale: 1.02;
 }
 
 #form {
