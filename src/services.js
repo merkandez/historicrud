@@ -92,7 +92,13 @@ function printEventCard(histEvent, showEvent) {
   showEvent.appendChild(card);
 
   // Le damos funcionalidad al botón borrar.
-  btnDelete.onclick = () => deleteEvent(histEvent.id, histEvent.title, card);
+  btnDelete.onclick = () => {
+    //Mostramos el mensaje de confirmación
+    const confirmation = window.confirm(
+      `¿Estás seguro de que deseas eliminar el evento titulado "${histEvent.title}"?`
+    );
+    if (confirmation) deleteEvent(histEvent.id, histEvent.title, card);
+  };
 
   // Le damos funcionalidad al botón Ver Más.
   btnMore.onclick = () => {
@@ -186,7 +192,15 @@ function printForm(histEvent = null) {
       value: histEvent ? histEvent.key_figures.join(', ') : '',
     },
   ];
+  const closeButton = document.createElement('button');
+  closeButton.textContent = 'X';
+  closeButton.className = 'close-button';
+  form.appendChild(closeButton);
 
+  // Añadir evento para cerrar el formulario
+  closeButton.onclick = () => {
+    divForm; // Ocultar formulario limpiando el contenido
+  };
   gaps.map((gap) => {
     const label = document.createElement('label');
     label.textContent = gap.label;
@@ -196,13 +210,11 @@ function printForm(histEvent = null) {
     let input;
     if (gap.type === 'textarea') {
       input = document.createElement('textarea');
-      /* input.required = true; */
     } else {
       input = document.createElement('input');
       input.type = gap.type;
-      /* input.required = true; */
     }
-    input.required = true;
+
     input.id = gap.id;
     input.value = gap.value;
     form.appendChild(input);

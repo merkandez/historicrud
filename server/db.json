@@ -1,6 +1,17 @@
 {
   "historical_events": [
     {
+      "id": "1",
+      "title": "Caída del Imperio Romano de Occidente",
+      "date": "476",
+      "location": "Roma, Italia",
+      "description": "El Imperio Romano de Occidente colapsó oficialmente el 4 de septiembre de 476, cuando el último emperador romano, Rómulo Augústulo, fue depuesto por el líder germánico Odoacro.",
+      "key_figures": [
+        "Rómulo Augústulo",
+        "Odoacro"
+      ]
+    },
+    {
       "id": "3",
       "title": "Revolución Francesa",
       "date": "1789",
@@ -150,6 +161,16 @@
       "key_figures": [
         "Mehmed II",
         "Constantino XI"
+      ]
+    },
+    {
+      "id": "3f68",
+      "title": "",
+      "date": "",
+      "location": "",
+      "description": "",
+      "key_figures": [
+        ""
       ]
     }
   ]
