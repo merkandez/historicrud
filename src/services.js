@@ -61,7 +61,7 @@ function printEventCard(histEvent, showEvent) {
 
   const btnMore = document.createElement('button');
   btnMore.className = 'more';
-  btnMore.textContent = 'Ver Más';
+  btnMore.textContent = '+';
 
   const btnEdit = document.createElement('button');
   btnEdit.className = 'edit';

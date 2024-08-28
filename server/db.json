@@ -6,10 +6,15 @@
       "date": "476",
       "location": "Roma, Italia",
       "description": "El Imperio Romano de Occidente colapsó oficialmente el 4 de septiembre de 476, cuando el último emperador romano, Rómulo Augústulo, fue depuesto por el líder germánico Odoacro.",
-      "key_figures": [
-        "Rómulo Augústulo",
-        "Odoacro"
-      ]
+      "key_figures": ["Rómulo Augústulo", "Odoacro"]
+    },
+    {
+      "id": "2",
+      "title": "Descubrimiento de América",
+      "date": "1492",
+      "location": "Bahamas",
+      "description": "El 12 de octubre de 1492, Cristóbal Colón, al servicio de los Reyes Católicos de España, llegó a lo que hoy conocemos como América, marcando el inicio de una nueva era en la historia mundial.",
+      "key_figures": ["Cristóbal Colón", "Reyes Católicos"]
     },
     {
       "id": "3",
@@ -17,10 +22,7 @@
       "date": "1789",
       "location": "París, Francia",
       "description": "La Revolución Francesa comenzó el 14 de julio de 1789 con la toma de la Bastilla, un evento que marcó el inicio del fin de la monarquía absoluta en Francia y el ascenso de los valores republicanos.",
-      "key_figures": [
-        "Luis XVI",
-        "Maximilien Robespierre"
-      ]
+      "key_figures": ["Luis XVI", "Maximilien Robespierre"]
     },
     {
       "id": "4",
@@ -28,11 +30,7 @@
       "date": "1776",
       "location": "Filadelfia, Estados Unidos",
       "description": "El 4 de julio de 1776, las Trece Colonias en América del Norte proclamaron su independencia del Reino de Gran Bretaña, estableciendo las bases para la creación de los Estados Unidos de América.",
-      "key_figures": [
-        "George Washington",
-        "Thomas Jefferson",
-        "John Adams"
-      ]
+      "key_figures": ["George Washington", "Thomas Jefferson", "John Adams"]
     },
     {
       "id": "5",
@@ -52,11 +50,7 @@
       "date": "1910",
       "location": "México",
       "description": "La Revolución Mexicana comenzó el 20 de noviembre de 1910 como una lucha armada contra el régimen dictatorial de Porfirio Díaz, marcando un cambio significativo en la política y sociedad mexicana.",
-      "key_figures": [
-        "Francisco I. Madero",
-        "Emiliano Zapata",
-        "Pancho Villa"
-      ]
+      "key_figures": ["Francisco I. Madero", "Emiliano Zapata", "Pancho Villa"]
     },
     {
       "id": "7",
@@ -64,11 +58,7 @@
       "date": "1989",
       "location": "Berlín, Alemania",
       "description": "El 9 de noviembre de 1989, el Muro de Berlín, que había dividido la ciudad en dos durante décadas, fue derribado, marcando el inicio del fin de la Guerra Fría y la reunificación alemana.",
-      "key_figures": [
-        "Mijaíl Gorbachov",
-        "Ronald Reagan",
-        "Helmut Kohl"
-      ]
+      "key_figures": ["Mijaíl Gorbachov", "Ronald Reagan", "Helmut Kohl"]
     },
     {
       "id": "8",
@@ -76,11 +66,7 @@
       "date": "1947",
       "location": "Nueva Delhi, India",
       "description": "El 15 de agosto de 1947, la India obtuvo su independencia del dominio británico después de una larga lucha liderada por figuras clave del movimiento independentista indio.",
-      "key_figures": [
-        "Mahatma Gandhi",
-        "Jawaharlal Nehru",
-        "Lord Mountbatten"
-      ]
+      "key_figures": ["Mahatma Gandhi", "Jawaharlal Nehru", "Lord Mountbatten"]
     },
     {
       "id": "9",
@@ -88,11 +74,7 @@
       "date": "1760-1840",
       "location": "Inglaterra",
       "description": "La Revolución Industrial fue un período de grandes avances tecnológicos y económicos, comenzando en Inglaterra a mediados del siglo XVIII y expandiéndose por todo el mundo, transformando las sociedades agrícolas en industriales.",
-      "key_figures": [
-        "James Watt",
-        "Richard Arkwright",
-        "George Stephenson"
-      ]
+      "key_figures": ["James Watt", "Richard Arkwright", "George Stephenson"]
     },
     {
       "id": "10",
@@ -100,11 +82,7 @@
       "date": "1810-1825",
       "location": "América Latina",
       "description": "Una serie de movimientos revolucionarios en América Latina, liderados por figuras clave, resultaron en la independencia de las colonias españolas en el continente.",
-      "key_figures": [
-        "Simón Bolívar",
-        "José de San Martín",
-        "Miguel Hidalgo"
-      ]
+      "key_figures": ["Simón Bolívar", "José de San Martín", "Miguel Hidalgo"]
     },
     {
       "id": "11",
@@ -124,10 +102,7 @@
       "date": "1889",
       "location": "Río de Janeiro, Brasil",
       "description": "El 15 de noviembre de 1889, Brasil pasó de ser un imperio a una república federal, tras un golpe militar que depuso al emperador Pedro II.",
-      "key_figures": [
-        "Pedro II",
-        "Marechal Deodoro da Fonseca"
-      ]
+      "key_figures": ["Pedro II", "Marechal Deodoro da Fonseca"]
     },
     {
       "id": "13",
@@ -135,10 +110,7 @@
       "date": "1929",
       "location": "Estados Unidos",
       "description": "La Gran Depresión fue una severa crisis económica que comenzó en 1929 con la caída de la Bolsa de Nueva York, afectando a nivel mundial y llevando a cambios significativos en la economía y política global.",
-      "key_figures": [
-        "Herbert Hoover",
-        "Franklin D. Roosevelt"
-      ]
+      "key_figures": ["Herbert Hoover", "Franklin D. Roosevelt"]
     },
     {
       "id": "14",
@@ -146,11 +118,7 @@
       "date": "1917",
       "location": "Petrogrado, Rusia",
       "description": "La Revolución de Octubre de 1917 fue un levantamiento liderado por los bolcheviques, que resultó en la toma del poder en Rusia y el establecimiento de la Unión Soviética.",
-      "key_figures": [
-        "Vladimir Lenin",
-        "León Trotsky",
-        "Nikolái Bujarin"
-      ]
+      "key_figures": ["Vladimir Lenin", "León Trotsky", "Nikolái Bujarin"]
     },
     {
       "id": "15",
@@ -158,20 +126,7 @@
       "date": "1453",
       "location": "Constantinopla, Imperio Bizantino",
       "description": "El 29 de mayo de 1453, Constantinopla fue conquistada por el Imperio Otomano, marcando el fin del Imperio Bizantino y un cambio significativo en la historia mundial.",
-      "key_figures": [
-        "Mehmed II",
-        "Constantino XI"
-      ]
-    },
-    {
-      "id": "3f68",
-      "title": "",
-      "date": "",
-      "location": "",
-      "description": "",
-      "key_figures": [
-        ""
-      ]
+      "key_figures": ["Mehmed II", "Constantino XI"]
     }
   ]
 }
