@@ -73,7 +73,7 @@ historiCrud |-- /server | |-- db.json | |-- dbexample.json |-- /src | |-- servic
 
 ## Contribuciones
 
-Si deseas contribuir al proyecto, por favor, haz un fork del repositorio y envía un pull request con tus cambios.
+Si deseas contribuir al proyecto, por favor, haz un fork del repositorio y envía un pull request con tus cambios. 
 
 ---
 
