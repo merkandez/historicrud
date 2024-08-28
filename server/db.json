@@ -1,28 +1,6 @@
 {
   "historical_events": [
     {
-      "id": "1",
-      "title": "Caída del Imperio Romano de Occidente",
-      "date": "476",
-      "location": "Roma, Italia",
-      "description": "El Imperio Romano de Occidente colapsó oficialmente el 4 de septiembre de 476, cuando el último emperador romano, Rómulo Augústulo, fue depuesto por el líder germánico Odoacro.",
-      "key_figures": [
-        "Rómulo Augústulo",
-        "Odoacro"
-      ]
-    },
-    {
-      "id": "2",
-      "title": "Descubrimiento de América",
-      "date": "1492",
-      "location": "Bahamas",
-      "description": "El 12 de octubre de 1492, Cristóbal Colón, al servicio de los Reyes Católicos de España, llegó a lo que hoy conocemos como América, marcando el inicio de una nueva era en la historia mundial.",
-      "key_figures": [
-        "Cristóbal Colón",
-        "Reyes Católicos"
-      ]
-    },
-    {
       "id": "3",
       "title": "Revolución Francesa",
       "date": "1789",

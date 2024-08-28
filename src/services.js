@@ -105,7 +105,6 @@ function printEventCard(histEvent, showEvent) {
   };
 }
 
-
 //Creamos una función que nos pinte un mensaje de éxito o de error en pantalla cuando borremos, añadamos o editemos algún evento histórico.
 
 function showMessage(message, type) {
@@ -197,11 +196,13 @@ function printForm(histEvent = null) {
     let input;
     if (gap.type === 'textarea') {
       input = document.createElement('textarea');
+      /* input.required = true; */
     } else {
       input = document.createElement('input');
       input.type = gap.type;
+      /* input.required = true; */
     }
-
+    input.required = true;
     input.id = gap.id;
     input.value = gap.value;
     form.appendChild(input);
@@ -237,6 +238,19 @@ async function createNewEvent() {
     .getElementById('key_figures')
     .value.split(',')
     .map((item) => item.trim());
+
+  // Validamos si algún campo está vacío
+  if (
+    !title ||
+    !date ||
+    !location ||
+    !description ||
+    keyFigures.length === 0 /* ||
+    keyFigures.some((figure) => figure === '') */
+  ) {
+    showMessage('Todos los campos son obligatorios.', 'error');
+    return; // Con return detenemos la ejecución si hay campos vacíos
+  }
 
   const newEvent = {
     title: title,
