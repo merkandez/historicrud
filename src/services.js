@@ -252,14 +252,7 @@ async function createNewEvent() {
     .map((item) => item.trim());
 
   // Validamos si algún campo está vacío
-  if (
-    !title ||
-    !date ||
-    !location ||
-    !description ||
-    keyFigures.length === 0 /* ||
-    keyFigures.some((figure) => figure === '') */
-  ) {
+  if (!title || !date || !location || !description || keyFigures.length === 0) {
     showMessage('Todos los campos son obligatorios.', 'error');
     return; // Con return detenemos la ejecución si hay campos vacíos
   }
@@ -307,6 +300,12 @@ async function updateEvent(id) {
     .getElementById('key_figures')
     .value.split(',')
     .map((item) => item.trim());
+
+  // Validamos si algún campo está vacío
+  if (!title || !date || !location || !description || keyFigures.length === 0) {
+    showMessage('Todos los campos son obligatorios.', 'error');
+    return; // Con return detenemos la ejecución si hay campos vacíos
+  }
 
   const updatedEvent = {
     title: title,
