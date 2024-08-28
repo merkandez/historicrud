@@ -26,7 +26,7 @@ Este proyecto permite gestionar eventos históricos mediante una interfaz web ut
 1. Clona el repositorio usando Git:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/merkandez/historicrud
    ```
 
 2. Navega al directorio del proyecto:
