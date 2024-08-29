@@ -1,7 +1,6 @@
 {
   "historical_events": [
     {
-      "id": "1",
       "title": "Caída del Imperio Romano de Occidente",
       "date": "476",
       "location": "Roma, Italia",
@@ -9,7 +8,8 @@
       "key_figures": [
         "Rómulo Augústulo",
         "Odoacro"
-      ]
+      ],
+      "id": "1"
     },
     {
       "title": "Descubrimiento de América",

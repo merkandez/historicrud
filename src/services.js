@@ -108,6 +108,8 @@ function printEventCard(histEvent, showEvent) {
   // Le damos funcionalidad al botón editar para que pinte el formulario para editar el evento histórico.
   btnEdit.onclick = () => {
     printForm(histEvent);
+    const formulario = document.getElementById('divForm'); // Hacemos que al pulsar el botón la pagina haga scroll hasta el formulario para que este se visualice
+    formulario.scrollIntoView({ behavior: 'smooth' });
   };
 }
 
