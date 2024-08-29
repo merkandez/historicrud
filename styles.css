@@ -1,3 +1,8 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #334a5a;
+  background-color: rgb(243, 245, 247);
+}
 h1 {
   text-align: center;
 }
@@ -38,7 +43,7 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Misma sombra para ambas caras */
   transform: rotateY(180deg);
   z-index: 1; /* Inicialmente está por debajo */
-  background-color: rgb(224, 221, 217)
+  background-color: rgb(224, 221, 217);
 }
 .card-front {
   z-index: 0; /* Colocamos el frente sobre el reverso inicialmente */
@@ -121,7 +126,9 @@ h1 {
   border-radius: 8px;
   box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.2),
     0 1px 10px rgba(0.3, 0.3, 0.3, 0.2);
+  background-color: rgb(243, 245, 247);
 }
+
 form {
   width: 100%;
 }
@@ -144,6 +151,7 @@ form {
 
 #eventForm button,
 #CreateNewEventBtn {
+  font-family: 'Courier New', Courier, monospace;
   display: block;
   width: 100%;
   padding: 12px;
@@ -160,6 +168,7 @@ form {
 }
 #CreateNewEventBtn {
   width: 50%;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #eventForm button:hover,
@@ -209,7 +218,7 @@ form {
   color: white;
   border: none;
   padding: 10px 10px;
-  font-size: 16px;
+  font-size: 1em;
   cursor: pointer;
   border-radius: 5px;
   width: 2em;
