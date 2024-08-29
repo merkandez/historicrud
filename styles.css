@@ -38,7 +38,7 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Misma sombra para ambas caras */
   transform: rotateY(180deg);
   z-index: 1; /* Inicialmente está por debajo */
-  background-color: rgba(196, 192, 184, 0.99);
+  background-color: rgb(224, 221, 217)
 }
 .card-front {
   z-index: 0; /* Colocamos el frente sobre el reverso inicialmente */
@@ -58,8 +58,9 @@ h1 {
 
 .card-buttons {
   display: flex;
-  justify-content: space-between;
-  margin-top: 16px;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .card button {
@@ -73,6 +74,7 @@ h1 {
   background-color: #e74c3c;
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 .card button.delete:hover {
   scale: 1.04;
@@ -92,6 +94,7 @@ h1 {
   transition: background-color 0.3s ease;
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 .card button.edit:hover {
   transform: scale(1.04);

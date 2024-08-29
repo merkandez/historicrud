@@ -61,15 +61,15 @@ function printEventCard(histEvent, showEvent) {
 
   const btnMore = document.createElement('button');
   btnMore.className = 'more';
-  btnMore.textContent = '+';
+  btnMore.innerHTML = '&#x21BB';
 
   const btnEdit = document.createElement('button');
   btnEdit.className = 'edit';
-  btnEdit.textContent = 'Editar';
+  btnEdit.innerHTML = '&#x270E';
 
   const btnDelete = document.createElement('button');
   btnDelete.className = 'delete';
-  btnDelete.textContent = 'Borrar';
+  btnDelete.innerHTML = '&#x1F5D1';
 
   //Aquí es donde utilizamos los div de card y buttons para crear cada uno de los componentes que van contenidos dentro y que anteriormente habíamos metido en constantes.
 
@@ -128,7 +128,7 @@ function showMessage(message, type) {
   setTimeout(() => {
     messageBox.textContent = '';
     messageBox.className = '';
-  }, 5000);
+  }, 3000);
 }
 
 // Creamos la función para eliminar un evento histórico del JSON con el método DELETE.
@@ -325,8 +325,9 @@ async function updateEvent(id) {
 
   if (response.ok) {
     showMessage(`Se ha actualizado el evento titulado ${title}.`, 'success');
-    getEvents(); // Actualizamos la lista de eventos
-    document.getElementById('divForm').innerHTML = ''; // Limpiamos el formulario después de actualizar
+    getEvents();
+    document.getElementById('eventForm').reset();
+    // Actualizamos la lista de eventos // Limpiamos el formulario después de actualizar
   } else {
     showMessage(
       `Ha habido un error al actualizar el evento titulado ${title}.`,

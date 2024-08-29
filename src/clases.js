@@ -23,3 +23,11 @@ const myEvent = new Events(
 );
 
 console.log(myEvent);
+
+{
+  'Batalla de las Termópilas',
+    '480 a.C.',
+    'Paso de las Termópilas, Grecia',
+    'La Batalla de las Termópilas fue un enfrentamiento clave durante la Segunda Guerra Médica, donde un pequeño ejército griego liderado por el rey Leónidas de Esparta se enfrentó al vasto ejército persa de Jerjes I, en un heroico acto de resistencia.',
+    ['Leónidas I', 'Jerjes I'];
+}
