@@ -30,12 +30,13 @@ h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%; /* Ambas caras deben ocupar todo el espacio */
   backface-visibility: hidden;
   padding: 16px;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Asegura que el padding se incluye en el tamaño total */
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Misma sombra para ambas caras */
+  transform: rotateY(180deg);
   z-index: 1; /* Inicialmente está por debajo */
   background-color: rgba(196, 192, 184, 0.99);
 }
