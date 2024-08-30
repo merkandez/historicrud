@@ -1,4 +1,4 @@
-# HistiriCrud: Proyecto de Gestión de Eventos Históricos
+# HistoriCrud: Proyecto de Gestión de Eventos Históricos
 
 Este proyecto permite gestionar eventos históricos mediante una interfaz web utilizando JavaScript Vanilla y un servidor JSON. Puedes crear, leer, actualizar y eliminar eventos históricos. La interfaz los datos de cada evento en una tarjeta que puede generar un efecto "flip" y que permite ver la descripción de cada elemento organizado en un documento JSON.
 
